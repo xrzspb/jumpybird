@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,QAAQ;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI",
-"sources": ["backgroundStyle.sass"],
+"mappings": "AAAA,QAAQ;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;;AAEd,IAAI;EACF,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,GAAG;EACZ,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,IAAI",
+"sources": ["BackgroundStyle.sass"],
 "names": [],
-"file": "backgroundStyle.css"
+"file": "BackgroundStyle.css"
 }
