@@ -15,7 +15,7 @@ $(document).ready( function() {
         $('#box' + i).animate ({
             left: '-=50'
         }, 500, 'linear', function() {
-            if ($('#box' + i).offset().left > 0) {
+            if ($('#box' + i).offset().left > 0-$('#box' + i).outerWidth()) {
                 doMove(i);
             }
         });
