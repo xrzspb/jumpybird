@@ -39,7 +39,7 @@ function generateNewBox(i) {
     var d = document.createElement("div");
     var x = document.createElement("CANVAS");
     var ctx = x.getContext("2d");
-    d.style.backgroundImage = 'url(images/Pipe_1.png)';
+    d.style.backgroundImage = 'url(images/pipe_1.png)';
     d.style.backgroundRepeat = "no-repeat";
     d.setAttribute("id", "box"+i);
     d.style.left = left;
