@@ -2,22 +2,32 @@ body {
   text-align: center; }
 
 #playing {
-  width: 500px;
-  height: 600px;
-  background-color: gold; }
+  position: relative;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 70%;
+  background-color: gold;
+  alignment: center; }
 
 #box0 {
   position: relative;
   z-index: 500;
-  left: 50%;
-  top: 10%;
   background-color: transparent; }
 
 #box1 {
   position: relative;
   z-index: 500;
-  left: 70%;
-  top: 10%;
+  background-color: transparent; }
+
+#box2 {
+  position: relative;
+  z-index: 500;
+  background-color: transparent; }
+
+#box3 {
+  position: relative;
+  z-index: 500;
   background-color: transparent; }
 
 /*# sourceMappingURL=BackgroundStyle.css.map */
